@@ -19,7 +19,7 @@ a {
 .hero {
     background-color: #FFEE8C;
     width: 720px;
-    height: 400px;
+    height: 1000px;
     border-radius: 10px;
 
     overflow: auto;
@@ -90,7 +90,7 @@ a {
         background-position: center;
     
         width: 90%;
-        height: 70%;
+        height: 80%;
         text-align: center;
         background-size: cover;
 
@@ -99,18 +99,6 @@ a {
 
     .pfp{
         display:none;
-    }
-}
-
-@media (max-width: 540px) {
-    .hero {
-        position: relative;
-        background-position: center;
-    
-        width: 90%;
-        height: 80%;
-        text-align: center;
-        background-size: cover;
     }
 
     .info {
