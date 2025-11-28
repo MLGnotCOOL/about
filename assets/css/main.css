@@ -1,14 +1,36 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body {
-    background-image: url("./../img/wallpaper.png");
-    background-attachment: fixed;
-    position: relative;
-    background-position: center;
-  
+    font-family: 'Noto Sans TC',sans-serif !important;
     width: 100%;
     height: 100vh;
-    background-size: cover;
+}
 
-    font-family: 'Noto Sans CJK TC',sans-serif !important;
+* {
+  box-sizing: border-box;
+}
+
+.background {
+    background-image: url("./../img/wallpaper.png");
+    background-attachment: fixed;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 
 a {
@@ -17,7 +39,7 @@ a {
 }
 
 .hero {
-    background-color: #FFEE8C;
+    background: linear-gradient(0deg,rgb(61, 242, 188) 0%, rgba(237, 221, 83, 1) 50%, rgb(217, 242, 148) 100%);
     width: 720px;
     height: 1000px;
     border-radius: 10px;
