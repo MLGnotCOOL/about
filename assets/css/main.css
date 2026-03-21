@@ -41,7 +41,7 @@ a {
 .hero {
     background: linear-gradient(0deg,rgb(61, 242, 188) 0%, rgba(237, 221, 83, 1) 50%, rgb(217, 242, 148) 100%);
     width: 720px;
-    height: 1000px;
+    height: 1050px;
     border-radius: 10px;
 
     overflow: auto;
